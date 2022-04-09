@@ -26,13 +26,13 @@ You have to import the file diamonds_train.db, and make several queries and conv
 Also, the categorical variables have to be converted into numbers with get_dummies function. And then join the numerical variables. 
 
 
-After applying different algorithms to train the model and optimize it, the best one for this model is "RandomForestRegressor". Finally, we create the prediction and export it as a .csv called "Submission.csv"
+After applying different algorithms to train the model and optimize it, the best one for this model is "RandomForestRegressor". Finally, we create the prediction and export it as a .csv called "Submission"
 
 Also, you must import the diamonds_test.csv to test the train dataset. We split it with "test-train-split" to  test the dataset with X_train and y_train. 
 With "RandomForestRegressor" we get the minimum RMSE, which was 558.
 
 
-<p align="center"><img src="https://media.giphy.com/media/dUSkOT39uMA8S1xzh4/giphy.gif"></p>
+<p align="center"><img src="https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif"></p>
 
 
 ## **References**
